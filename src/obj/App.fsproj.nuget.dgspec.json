@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "/z/aolney/repos/fable-jupyterlab-extension/src/App.fsproj": {}
+  },
+  "projects": {
+    "/z/aolney/repos/fable-jupyterlab-extension/src/App.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/z/aolney/repos/fable-jupyterlab-extension/src/App.fsproj",
+        "projectName": "App",
+        "projectPath": "/z/aolney/repos/fable-jupyterlab-extension/src/App.fsproj",
+        "packagesPath": "/home/aolney/.nuget/packages/",
+        "outputPath": "/z/aolney/repos/fable-jupyterlab-extension/src/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/z/aolney/repos/fable-jupyterlab-extension/NuGet.Config",
+          "/home/aolney/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1604",
+            "NU1605",
+            "NU1608"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Fable.Browser.Blob": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Fable.Browser.Dom": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Fable.Browser.Event": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Fable.Browser.WebStorage": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Fable.Core": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Fable.Node": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

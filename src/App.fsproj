@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- <Compile Include="JupyterlabApplication.fs" />
+    <Compile Include="JupyterlabApputils.fs" />
+    <Compile Include="PhosphorCoreutils.fs" />
+    <Compile Include="PhosphorMessaging.fs" />
+    <Compile Include="PhosphorWidgets.fs" /> -->
+    <Compile Include="Jupyter.fs" />
+    <Compile Include="index.fs" />
+  </ItemGroup>
+  <Import Project="..\.paket\Paket.Restore.targets" />
+</Project>

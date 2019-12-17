@@ -1,0 +1,216 @@
+{
+  "format": 1,
+  "restore": {
+    "/z/aolney/repos/mofacts-automated-authoring/tests/Tests.fsproj": {}
+  },
+  "projects": {
+    "/z/aolney/repos/mofacts-automated-authoring/src/App.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/z/aolney/repos/mofacts-automated-authoring/src/App.fsproj",
+        "projectName": "App",
+        "projectPath": "/z/aolney/repos/mofacts-automated-authoring/src/App.fsproj",
+        "packagesPath": "/home/aolney/.nuget/packages/",
+        "outputPath": "/z/aolney/repos/mofacts-automated-authoring/src/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/z/aolney/repos/mofacts-automated-authoring/NuGet.Config",
+          "/home/aolney/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1604",
+            "NU1605",
+            "NU1608"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Fable.Browser.Blob": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Fable.Browser.Dom": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Fable.Browser.Event": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Fable.Browser.Url": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Fable.Browser.WebStorage": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Fable.Browser.XMLHttpRequest": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Fable.Core": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Fable.Elmish": {
+              "target": "Package",
+              "version": "[3.0.4, )"
+            },
+            "Fable.Elmish.Browser": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Fable.Elmish.Debugger": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Fable.Elmish.HMR": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Fable.Elmish.React": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Fable.Fetch": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Fable.FontAwesome": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Fable.FontAwesome.Free": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Fable.Promise": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Fable.React": {
+              "target": "Package",
+              "version": "[5.2.6, )"
+            },
+            "Fable.SimpleHttp": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "Fulma": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Thoth.Json": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/z/aolney/repos/mofacts-automated-authoring/tests/Tests.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/z/aolney/repos/mofacts-automated-authoring/tests/Tests.fsproj",
+        "projectName": "Tests",
+        "projectPath": "/z/aolney/repos/mofacts-automated-authoring/tests/Tests.fsproj",
+        "packagesPath": "/home/aolney/.nuget/packages/",
+        "outputPath": "/z/aolney/repos/mofacts-automated-authoring/tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/z/aolney/repos/mofacts-automated-authoring/NuGet.Config",
+          "/home/aolney/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/z/aolney/repos/mofacts-automated-authoring/src/App.fsproj": {
+                "projectPath": "/z/aolney/repos/mofacts-automated-authoring/src/App.fsproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1604",
+            "NU1605",
+            "NU1608"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Fable.Core": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Fable.Node": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
